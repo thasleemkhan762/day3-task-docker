@@ -6,6 +6,8 @@ const PORT = 3000;
 app.get('/', (req, res) => {
   res.send('🚀 Hello from Dockerized Node.js Express Server! updated');
 });
+console.log("Message");
+
 
 app.listen(PORT, () => {
     console.log(`✅ App is running`);
